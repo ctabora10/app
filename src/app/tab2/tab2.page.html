@@ -1,7 +1,11 @@
-<ion-header [translucent]="true">
+<ion-header >
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      </ion-buttons>  
+      
     <ion-title>
-      Tab 2
+        Home Screen     
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +13,25 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Home Feed</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <app-explore-container name="Home Feed: Welcome Hello World"></app-explore-container>
+    
+     <iframe class= 'webPage' name= "samplePage" src="http://PTH.xctab.com/pages.html">
+    </iframe>
+  
+      <ion-button class="home-button-primary" expand="round" color="primary">Primary</ion-button>
+      
+      <ion-button class="home-button" expand="round" href="https://PTH.xctab.com" >To PTH</ion-button>
+    
+      <ion-button class="home-button-2" expand="round" href="https://porterjallen.com/">To PJA</ion-button>
+    
+ 
+    
+    
+    
+    
+    
 </ion-content>

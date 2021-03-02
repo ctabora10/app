@@ -1,3 +1,88 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+    <ion-menu content-id="menu" type="overlay">
+    <ion-header>
+        <ion-tooblar>
+            <ion-title></ion-title>
+        </ion-tooblar>
+      
+    </ion-header>
+    
+    <ion-content>
+        
+        
+        <ion-list>
+         <ion-item>
+            <ion-lable></ion-lable>
+            <ion-icon slot="start"></ion-icon>
+        </ion-item>  
+        
+        <ion-item class="profile-tab">
+            
+            
+            <ion-avatar>
+                <img src="assets/img/userID2.png">
+            </ion-avatar>
+            <ion-lable class="profile-text">Porter J Allen</ion-lable>
+            <ion-icon slot="start"></ion-icon>
+        </ion-item> 
+            
+            
+            
+            
+            
+        <ion-item class="profile-item">
+            <ion-lable class="profile-item">Version 0.1</ion-lable>
+            <ion-icon slot="start" name="construct-outline"></ion-icon>
+        </ion-item>
+       
+            <ion-menu-toggle>
+                <ion-button expand="full" href="tab3.page.html">My Profile</ion-button>
+                
+            </ion-menu-toggle> 
+            
+        
+        
+        
+        </ion-list>
+ 
+       
+        
+        <ion-list class="menu-button2">
+            <ion-button expand="full" href="tabs/tab3">My Training Sessions</ion-button>
+            
+            <ion-button expand="full" href="tabs/tab3">My Stats</ion-button>
+            <ion-button expand="full" href="tabs/tab3">My Team</ion-button>
+            <ion-button expand="full" href="tabs/tab3">Customize Feed</ion-button>
+             <ion-lable></ion-lable>
+            <ion-icon slot="start"></ion-icon>
+            
+             <ion-lable></ion-lable>
+            <ion-icon slot="start"></ion-icon>
+        </ion-list>
+        
+         <ion-button class="Signout-button" expand="round" size="small" href="tabs/tab3">Sign out</ion-button>
+         <ion-button class="Signout-button" expand="round" size="small" href="tabs/tab3">Settings</ion-button>
+        
+        
+    </ion-content>
+    
+    
+    
+    
+    
+    </ion-menu>
+    <ion-router-outlet id="menu"></ion-router-outlet>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </ion-app>
